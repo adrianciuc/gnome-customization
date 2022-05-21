@@ -1,4 +1,26 @@
 
+headerbar button.titlebutton:not(.appmenu).close,
+headerbar button.titlebutton:not(.appmenu).maximize,
+headerbar button.titlebutton:not(.appmenu).minimize {
+  min-height: 19px;
+  min-width: 19 px;
+  padding: 0;
+  margin: 0;
+}
+
+headerbar button.titlebutton:not(.appmenu).close image,
+headerbar button.titlebutton:not(.appmenu).maximize image,
+headerbar button.titlebutton:not(.appmenu).minimize image {
+    opacity: 0.0;
+}
+
+headerbar button.titlebutton:not(.appmenu).close:hover image,
+headerbar button.titlebutton:not(.appmenu).maximize:hover image,
+headerbar button.titlebutton:not(.appmenu).minimize:hover image {
+    opacity: 1.0;
+}
+
+
  headerbar button.titlebutton:not(.appmenu).close, 
  .titlebar button.titlebutton:not(.appmenu).close, 
  headerbar.selection-mode button.titlebutton:not(.appmenu).close, 
@@ -11,8 +33,7 @@
  .titlebar button.titlebutton:not(.appmenu).close:hover, 
  headerbar.selection-mode button.titlebutton:not(.appmenu).close:hover,
  button.titlebutton:not(.appmenu).close:hover {
-     background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(gold), to(transparent));
-     background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(cyan, to(transparent));
+     background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(#FF605C), to(transparent));
  }    
  
          
@@ -20,8 +41,7 @@
  .titlebar button.titlebutton:not(.appmenu).close:active, 
  headerbar.selection-mode button.titlebutton:not(.appmenu).close:active, 
  button.titlebutton:not(.appmenu).close:active {
-     background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(magenta), to(transparent));
-     background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(orange), to(transparent));
+     background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(#fa7b78), to(transparent));
  }
  
  
@@ -57,8 +77,7 @@ headerbar button.titlebutton:not(.appmenu).maximize:hover,
 .titlebar button.titlebutton:not(.appmenu).maximize:hover, 
 headerbar.selection-mode button.titlebutton:not(.appmenu).maximize:hover,
 button.titlebutton:not(.appmenu).maximize:hover {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(gold), to(transparent));
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(cyan, to(transparent));
+    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(#FFBD44), to(transparent));
 }    
 
         
@@ -66,8 +85,7 @@ headerbar button.titlebutton:not(.appmenu).maximize:active,
 .titlebar button.titlebutton:not(.appmenu).maximize:active, 
 headerbar.selection-mode button.titlebutton:not(.appmenu).maximize:active, 
 button.titlebutton:not(.appmenu).maximize:active {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(magenta), to(transparent));
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(orange), to(transparent));
+    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(#fcc45d), to(transparent));
 }
 
 
@@ -102,8 +120,7 @@ headerbar button.titlebutton:not(.appmenu).minimize:hover,
 .titlebar button.titlebutton:not(.appmenu).minimize:hover, 
 headerbar.selection-mode button.titlebutton:not(.appmenu).minimize:hover,
 button.titlebutton:not(.appmenu).minimize:hover {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(gold), to(transparent));
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(cyan, to(transparent));
+    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(#00CA4E), to(transparent));
 }    
 
         
@@ -111,8 +128,7 @@ headerbar button.titlebutton:not(.appmenu).minimize:active,
 .titlebar button.titlebutton:not(.appmenu).minimize:active, 
 headerbar.selection-mode button.titlebutton:not(.appmenu).minimize:active, 
 button.titlebutton:not(.appmenu).minimize:active {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(magenta), to(transparent));
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(orange), to(transparent));
+    background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(#21cc63), to(transparent));
 }
 
 
