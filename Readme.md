@@ -1,4 +1,4 @@
-#Change color for close, minimize and maximize buttons in Ubuntu 22.04
+# Change color for close, minimize and maximize buttons in Ubuntu 22.04
 
 This repo contains customizations that can be applied to the default themes from Ubuntu 22.04 .
 
