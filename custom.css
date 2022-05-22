@@ -26,7 +26,7 @@ headerbar button.titlebutton:not(.appmenu).minimize:hover image {
  headerbar.selection-mode button.titlebutton:not(.appmenu).close, 
  button.titlebutton:not(.appmenu).close {
      background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(#FF605C), to(transparent));
-     margin-right: 13px;
+     margin-right: 11px;
  }
  
  
