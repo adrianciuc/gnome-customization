@@ -2,10 +2,10 @@
 headerbar button.titlebutton:not(.appmenu).close,
 headerbar button.titlebutton:not(.appmenu).maximize,
 headerbar button.titlebutton:not(.appmenu).minimize {
-  min-height: 19px;
-  min-width: 19 px;
-  padding: 0;
-  margin: 0;
+  min-height: 21px;
+  min-width: 21px;
+  padding: 0px;
+  margin: -2px;
 }
 
 headerbar button.titlebutton:not(.appmenu).close image,
@@ -26,6 +26,7 @@ headerbar button.titlebutton:not(.appmenu).minimize:hover image {
  headerbar.selection-mode button.titlebutton:not(.appmenu).close, 
  button.titlebutton:not(.appmenu).close {
      background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(#FF605C), to(transparent));
+     margin-right: 13px;
  }
  
  
@@ -113,6 +114,7 @@ headerbar button.titlebutton:not(.appmenu).maximize:backdrop,
 headerbar.selection-mode button.titlebutton:not(.appmenu).minimize, 
 button.titlebutton:not(.appmenu).minimize {
     background-image: -gtk-gradient(radial, center center, 0, center center, 0.35714, to(#00CA4E), to(transparent));
+    margin-left: 14px;
 }
 
 
