@@ -4,18 +4,25 @@ This repo contains customizations that can be applied to the default themes from
 
 # Instructions
 
-In Ubuntu themes are located in folder `/usr/share/themes`. For each accent color you can set from Settings, there is a coresponding theme. For example if you chose accent color blue, the Yaru-blue theme will be used. If you then change Ubuntu to dark mode, and keep accent color blue, the Yaru-blue-dark theme will be used. In order to edit the Yaru-blue-dark theme you must:
+1. Open file (create if does not exists) `~/.config/gtk-3.0/gtk.css`
+2. Paste the css code, from file `custom.css` from this repository
+3. Logout and Login
 
-1. Open file `/usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css`
-2. Paste at the end of the file the code from this repository, from file custom.css
-3. Open file `/usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css`
-4. Paste at the end of the file the code from this repository, from file custom.css
+If you have Firefox installed as Snap:
 
-In order to apply the changes, you cand go in Ubuntu in Settings > Appearance and choose differrent accent color and then, pick again the blue color so that Yaru-blue-dark theme will be loaded.
-
+1. Open file (create if does not exists)`~/snap/firefox/current/.config/gtk-3.0`
+2. Paste the css code, from file `custom.css` from this repository
+3. Logout and Login
 
 Note that this steps can be made for any Yaru theme that exists in folder `/usr/share/themes`.
 
-## Warning
+# Change Gnome Terminal colors
 
-In case Ubuntu updates itself, and the Yaru-dark-theme is updated by Ubuntu updates, you will have to repeat the steps above 
+1. Install `dconf`
+2. Download the file `gnome-terminal-profiles.dconf`
+3. Open a terminal in the folder where you downloaded the file and run `dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf`
+4. Close all terminals (maybe logout and login)
+5. Open a terminal window and go to Menu Button > Preferences > Profiles
+6. Chose profile named `custom-stuff (Copy)`
+7. Click on the arrow and click Set as default
+

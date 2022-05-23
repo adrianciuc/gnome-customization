@@ -1,0 +1,64 @@
+[/]
+default='9d7714ff-c381-4a1e-9f94-2238590f2ca5'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'eed1a7b2-f8fb-4d95-9348-64553c32e6d1', '13c8b22a-2d37-40b4-b975-7b80397f34e9', '9d7714ff-c381-4a1e-9f94-2238590f2ca5']
+
+[:13c8b22a-2d37-40b4-b975-7b80397f34e9]
+background-color='rgb(46,52,54)'
+cell-height-scale=1.2000000000000002
+foreground-color='rgb(211,215,207)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-theme-colors=false
+visible-name='asda'
+
+[:9d7714ff-c381-4a1e-9f94-2238590f2ca5]
+audible-bell=false
+background-color='rgb(37,36,37)'
+bold-color-same-as-fg=false
+bold-is-bright=false
+cell-height-scale=1.2000000000000002
+cell-width-scale=1.0800000000000001
+cursor-background-color='rgb(0,255,10)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(0,255,10)'
+foreground-color='rgb(242,239,203)'
+highlight-background-color='rgb(67,52,105)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(205,255,249)'
+palette=['rgb(47,41,66)', 'rgb(239,83,80)', 'rgb(6,167,0)', 'rgb(239,97,85)', 'rgb(19,191,240)', 'rgb(213,205,16)', 'rgb(194,255,223)', 'rgb(248,248,242)', 'rgb(127,255,0)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-theme-colors=false
+visible-name='custom-stuff (Copy)'
+
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(45,31,54)'
+background-transparency-percent=20
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-height-scale=1.0
+cell-width-scale=1.0
+cursor-background-color='rgb(42,125,51)'
+cursor-colors-set=true
+font='Ubuntu Mono 12'
+foreground-color='rgb(172,129,237)'
+highlight-colors-set=false
+palette=['rgb(54,56,94)', 'rgb(116,58,57)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(67,130,229)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-system-font=true
+use-theme-colors=false
+use-theme-transparency=true
+use-transparent-background=false
+visible-name='Personalized'
+
+[:eed1a7b2-f8fb-4d95-9348-64553c32e6d1]
+background-color='rgb(48,8,70)'
+bold-color-same-as-fg=false
+bold-is-bright=false
+cell-height-scale=1.2000000000000002
+cursor-background-color='rgb(21,168,206)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(21,168,206)'
+foreground-color='rgb(70,157,237)'
+highlight-background-color='rgb(67,52,105)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(205,255,249)'
+palette=['rgb(47,41,66)', 'rgb(255,133,127)', 'rgb(72,182,133)', 'rgb(230,192,0)', 'rgb(174,129,255)', 'rgb(239,97,85)', 'rgb(194,255,223)', 'rgb(248,248,242)', 'rgb(127,255,0)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-theme-colors=false
+visible-name='custom-stuff'
