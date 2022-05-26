@@ -31,7 +31,7 @@ Note that this steps can be made for any Yaru theme that exists in folder `/usr/
 
 ## Close, maximize, minimize buttons
 
-![image]("/Screenshot from 2022-05-26 21-29-50.png")
+![image](https://raw.github.com/adrianciuc/gnome-customization/main/buttons.png)
 
 ## Terminal colors
 
