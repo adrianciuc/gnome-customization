@@ -36,3 +36,11 @@ Note that this steps can be made for any Yaru theme that exists in folder `/usr/
 ## Terminal colors
 
 ![image](https://raw.github.com/adrianciuc/gnome-customization/main/terminal.png)
+
+
+# Issues
+
+On Snaps applications the close, maximize and minimize buttons are not sized accordingly so they have the default size and space between them. Also the close, maximize and minimize icons are showing permanently, not only when hovering with mouse cursor. Here is how snaps look like (Firefox in front and Visual Studio Code in the back)
+
+![image](https://raw.github.com/adrianciuc/gnome-customization/main/snaps.png)
+
