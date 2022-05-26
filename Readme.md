@@ -31,8 +31,8 @@ Note that this steps can be made for any Yaru theme that exists in folder `/usr/
 
 ## Close, maximize, minimize buttons
 
-![window buttons]("Screenshot from 2022-05-26 21-29-50.png")
+![window buttons]("/Screenshot from 2022-05-26 21-29-50.png")
 
 ## Terminal colors
 
-![terminal colors]("Screenshot from 2022-05-26 21-26-56.png")
+![terminal colors]("/Screenshot from 2022-05-26 21-26-56.png")
