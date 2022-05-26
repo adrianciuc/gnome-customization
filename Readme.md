@@ -26,3 +26,13 @@ Note that this steps can be made for any Yaru theme that exists in folder `/usr/
 6. Chose profile named `custom-stuff (Copy)`
 7. Click on the arrow and click Set as default
 
+
+# Screenshots 
+
+## Close, maximize, minimize buttons
+
+![window buttons]("Screenshot from 2022-05-26 21-29-50.png")
+
+## Terminal colors
+
+![terminal colors]("Screenshot from 2022-05-26 21-26-56.png")
