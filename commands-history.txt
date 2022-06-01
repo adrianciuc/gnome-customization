@@ -1,0 +1,368 @@
+    1  echo "Hello"
+    2  ls
+    3  ls -l
+    4  ls
+    5  cd
+    6  ls
+    7  mkdir
+    8  htop
+    9  sudo apt remove steam steam-installer
+   10  ls
+   11  sudo apt update
+   12  sudo apt install font-manager
+   13  sudo apt install gnome-tweaks
+   14  htop
+   15  ls
+   16  cd 
+   17  ls
+   18  ks
+   19  ls
+   20  cls
+   21  clear
+   22  ls
+   23  ls -l
+   24  ls 
+   25  ls -l
+   26  ls
+   27  less
+   28  less ff
+   29  less index
+   30  ls
+   31  ls -l
+   32  sudo -H gedit /usr/share/themes/Yaru/gtk-3.20/gtk.css
+   33  ls /usr/share/themes/
+   34  gsettings get org.gnome.desktop.interface gtk-theme
+   35  ls /usr/share/themes/Yaru-blue-dark/
+   36   /usr/share/themes/Yaru-blue-dark/gtk-4.0/
+   37  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-4.0/
+   38  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-4.0/gtk.css 
+   39  cd .
+   40  cd ..
+   41  ls -al
+   42  cd~/
+   43  cd ~/
+   44  nautilus .
+   45  cd ..
+   46  ls -al
+   47  cd .themes/
+   48  nautilus .
+   49  ls -l
+   50  ls -al
+   51  mkdir .vscode-root
+   52  ls -al
+   53  ls -al .vscode-root/
+   54  ls -al .vscode
+   55  ls -al .vscode-root/
+   56  rm -r .vscode-root/
+   57  ls -al
+   58  cp -r .vscode .vscode-root
+   59  ls -al .vscode-root/
+   60  cd .themes/
+   61  code .
+   62  rm ~
+   63  rm -r ~
+   64  rm -r '~'
+   65  nautilus .
+   66  sudo nautilus .
+   67  gresource extract /com/ubuntu/themes/Yaru-blue-dark/4.0/gtk-dark.css > gtk-dark.css
+   68  sudo gresource extract /com/ubuntu/themes/Yaru-blue-dark/4.0/gtk-dark.css > gtk-dark.css
+   69  sudo gresource extract /com/ubuntu/themes/Yaru-blue-dark/4.0/gtk-dark.css > gtk-dark-1.css
+   70  ls -al
+   71  rmdir \~
+   72  sudo rmdir \~
+   73  sudo -r rmdir \~
+   74  sudo rmdir -r \~
+   75  sudo rm -r \~
+   76  ls -al
+   77  chown adrian Yaru-blue-dark-custom/
+   78  sudo chown adrian Yaru-blue-dark-custom/
+   79  ls -al
+   80  sudo chgrp adrian Yaru-blue-dark-custom/
+   81  ls -al
+   82  cd Yaru-blue-dark-custom/
+   83  ls -al
+   84  sudo chown -R adrian:adrian *
+   85  ls -al
+   86  cd gtk-4.0/
+   87  ls -al
+   88  sudo gresource extract /com/ubuntu/themes/Yaru-blue-dark/4.0/gtk-dark.css > gtk-dark-1.css
+   89  gresource extract gtk.gresource /com/ubuntu/themes/Yaru-blue-dark/4.0/gtk-dark.css > gtk-dark-1.css
+   90  gresource extract gtk.gresource /com/ubuntu/themes/Yaru-blue-dark/4.0/gtk.css > gtk-1.css
+   91  ls
+   92  ls -al
+   93  chmod 755 extract.sh 
+   94  ls -all
+   95  ./extract.sh 
+   96  ls
+   97  ls -l
+   98  ls
+   99  cd /usr/share/themes/Yaru/gtk-4.0/
+  100  ls
+  101  less
+  102  less gtk.css
+  103  less gtk-dark.css 
+  104  gresource list gtk.gresource
+  105  ls
+  106  cd ..
+  107  ls
+  108  cd ..
+  109  ks
+  110  ls
+  111  cp -r Yaru-blue-dark Yaru-blue-dark-custom
+  112  sudo cp -r Yaru-blue-dark Yaru-blue-dark-custom
+  113  ls
+  114  cd Yaru-blue-dark-custom/
+  115  ls
+  116  sudo vscode .
+  117  sudo code .
+  118  sudo code --user-data-dir="~/.vscode-root"
+  119  sudo code --user-data-dir="~/.vscode-root" --no-sandbox
+  120  ls
+  121  cd gtk-4.0/
+  122  gresource extract gtk.gresource
+  123  gresource list gtk.gresource
+  124  ls
+  125  cd ..
+  126  ls
+  127  cd ..
+  128  ls
+  129  mv Yaru-blue-dark-custom/ ~/.themes/Yaru-blue-dark-custom
+  130  mv Yaru-blue-dark-custom/ ~/.themes/
+  131  sudo mv Yaru-blue-dark-custom/ ~/.themes/
+  132  ls ~/.themes/
+  133  ls -al ~/.themes/
+  134  ls -al Yaru-blue-dark/
+  135  rmdir \~
+  136  ls
+  137  cd Yaru-blue-dark/
+  138  ls -al
+  139  cd ../../gnome-shell/theme/Yaru-blue-dark
+  140  ls -al
+  141  code gnome-shell.css 
+  142  ls -a
+  143  ls
+  144  cd
+  145  ls
+  146  ls
+  147  ls
+  148  ls
+  149  ls -l
+  150  ls -l
+  151  ls -l
+  152  ls -l
+  153  ls -l
+  154  ls
+  155  ls -l
+  156  sudo apt install dconf-editor
+  157  cd .themes/
+  158  mv Yaru-blue-dark-custom/ /usr/share/themes/Yaru-blue-dark-custom
+  159  sudo mv Yaru-blue-dark-custom/ /usr/share/themes/Yaru-blue-dark-custom
+  160  cp -r /usr/share/themes/Yaru-blue-dark-custom/ ~/themes/Yaru-blue-dark-custom
+  161  cp -r /usr/share/themes/Yaru-blue-dark-custom/ ~/.themes/Yaru-blue-dark-custom
+  162  sudo cp -r /usr/share/themes/Yaru-blue-dark-custom/ ~/.themes/Yaru-blue-dark-custom
+  163  ls -al .themes/
+  164  cd .themes/
+  165  chown adrian:adrian Yaru-blue-dark-custom/
+  166  sudo chown adrian:adrian Yaru-blue-dark-custom/
+  167  ls -al
+  168  cd Yaru-blue-dark-custom/
+  169  sudo chown adrian:adrian *
+  170  ls -al
+  171  cd ..
+  172  sudo cp -R Yaru-blue-dark-custom /usr/share/themes/Yaru-blue-dark-custom
+  173  ls -al Yaru-blue-dark-custom/gtk-4.0/
+  174  sudo chown adrian:adrian **
+  175  ls -al Yaru-blue-dark-custom/gtk-4.0/
+  176  sudo -H gedit /usr/share/themes/Yaru-blue-dark-custom/gtk-4.0/gtk-dark.css 
+  177  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-4.0/gtk-dark.css 
+  178  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-4.0/gtk-dark.css 
+  179  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-4.0/gtk.css 
+  180  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  181  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  182  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  183  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-4.0/gtk-dark.css 
+  184  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-4.0/gtk.css 
+  185  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  186  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  187  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  188  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  189  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  190  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  191  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  192  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  193  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  194  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  195  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  196  ls -al
+  197  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  198  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  199  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  200  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  201  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  202  git status
+  203  git add .
+  204  git status
+  205  git commit -m "Initial commit"
+  206  git config --global user.email "adrian.ciucanel@outlook.com"
+  207  git config --global user.name "Adrian Ciucanel"
+  208  git commit -m "Initial commit"
+  209  git status
+  210  git push
+  211  git push
+  212  git push
+  213  git push
+  214  git push https://github.com/adrianciuc/gnome-customization.git
+  215  ls
+  216  touch Readme.mf
+  217  rm Readme.mf 
+  218  rm Readme.md
+  219  touch Readme.md
+  220  gedit Readme.md 
+  221  git status
+  222  git add .
+  223  git status
+  224  git status
+  225  git add .
+  226  git status
+  227  git commit -m "Initial instructions"
+  228  git push https://github.com/adrianciuc/gnome-customization.git
+  229  git status
+  230  git add .
+  231  git commit -m "Initial instructions v2"
+  232  git push https://github.com/adrianciuc/gnome-customization.git
+  233  ls -l
+  234  mkdir Projects
+  235  mkdir Github
+  236  rmdir Github/
+  237  cd Projects/
+  238  mkdir Github
+  239  cd Github/
+  240  git clone https://github.com/adrianciuc/gnome-customization.git
+  241  sudo apt install git
+  242  sudo apt install git
+  243  git clone https://github.com/adrianciuc/gnome-customization.git
+  244  cd gnome-customization/
+  245  touch custom.css
+  246  gedit custom.css 
+  247  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  248  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  249  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  250  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  251  gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  252  cd /root
+  253  sudo cd /root
+  254  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  255  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  256  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  257  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  258  ls -al
+  259  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  260  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  261  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  262  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  263  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  264  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  265  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  266  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-4.0/gtk-dark.css 
+  267  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-4.0/gtk.css 
+  268  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  269  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  270  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  271  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  272  rm -rf ~/.themes/Yaru-blue-dark-custom/
+  273  sudo rm -rf ~/.themes/Yaru-blue-dark-custom/
+  274  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  275  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  276  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  277  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk-dark.css 
+  278  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  279  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  280  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  281  sudo -H gedit /usr/share/themes/Yaru-blue-dark/gtk-3.0/gtk.css 
+  282  touch userChrome.css
+  283  snap list
+  284  ls -l
+  285  ls -l
+  286  ls -l
+  287  ls -l
+  288  ls -l
+  289  clear
+  290  ls -al
+  291  clear
+  292  ls -l
+  293  ls -al
+  294  ls -l
+  295  ls -l 
+  296  ls -l
+  297  ls -l
+  298  vim .config/gtk-3.0/gtk.css 
+  299  vi .config/gtk-3.0/gtk.css 
+  300  ls
+  301  ls -al
+  302  ls -al
+  303  ls -al
+  304  cp /etc/skel/.bashrc .bashrc
+  305  ls -l
+  306  clear
+  307  ls -al
+  308  ls -l
+  309  ls -al
+  310  ls 
+  311  clear
+  312  ls -al
+  313  ls 
+  314  ls -al
+  315  git status
+  316  git add .
+  317  git status
+  318  git commit -m "Add terminal color scheme"
+  319  git status
+  320  git push https://github.com/adrianciuc/gnome-customization.git
+  321  git status
+  322  git push
+  323  git push https://github.com/adrianciuc/gnome-customization.git
+  324  ls -l
+  325  ls
+  326  dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
+  327  vi ~/.config/gtk-3.0/gtk.css
+  328  cd Downloads/
+  329  ls
+  330  ls -l
+  331  cd Documents/
+  332  ls -al
+  333  ls
+  334  ls -al
+  335  cd Projects/Github/gnome-customization/
+  336  git status
+  337  git add .
+  338  git commit -m "Add screenshots"
+  339  git status
+  340  git push
+  341  git push https://github.com/adrianciuc/gnome-customization.git
+  342  git status
+  343  git add .
+  344  git status
+  345  git commit -m "Add screenshots in readme"
+  346  git push https://github.com/adrianciuc/gnome-customization.git
+  347  uname -r
+  348  apt -qq list gnome-network-displays
+  349  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> \
+  350  /etc/apt/sources.list.d/google.list'
+  351  sudo apt update
+  352  wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  353  sudo apt update
+  354  sudo apt install google-chrome-stable
+  355  lsusb
+  356  lsusb -s
+  357  sudo fdisk -l
+  358  sudo mkfs.exfat -n shared-files /dev/sdb1
+  359  mkfs
+  360  sudo mkfs.extfat -n shared-files /dev/sdb1
+  361  sudo mkfs.exfat -n shared-files /dev/sdb1
+  362  sudo apt install exfat-utils
+  363  sudo apt-get install exfatprogs
+  364  sudo mkfs.exfat -n shared-files /dev/sdb1
+  365  sudo mkfs.exfat -n shareds /dev/sdb1
+  366  sudo apt install gstreamer1.0-libav
+  367  history
+  368  history > commands-history.txt
