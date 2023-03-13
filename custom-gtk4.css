@@ -1,0 +1,58 @@
+headerbar button.close,
+headerbar button.maximize,
+headerbar button.minimize {
+    margin-left: -8px;
+}   
+
+      
+headerbar button.close :last-child {
+    background-color: #FF605C;
+    color: #FF605C;
+    margin: 4px;
+}
+
+headerbar button.close :last-child:hover {
+    background-color: #FF605C;
+    color: #ffffff;
+}
+
+
+
+
+
+
+headerbar button.maximize :last-child {
+    background-color: #FFBD44;
+    color: #FFBD44;
+    margin: 4px;
+}
+
+headerbar button.maximize :last-child:hover {
+    background-color: #FFBD44;
+    color: #ffffff;
+}
+
+
+
+
+
+headerbar button.minimize :last-child {
+    background-color: #00CA4E;
+    color: #00CA4E;
+    margin: 4px;
+}
+
+headerbar button.minimize :last-child:hover {
+    background-color: #00CA4E;
+    color: #ffffff;
+}
+
+
+
+
+headerbar button.close :last-child:backdrop,
+headerbar button.maximize :last-child:backdrop,
+headerbar button.minimize :last-child:backdrop {
+    background-color: #403e3e;
+    color: #403e3e;
+} 

@@ -1,4 +1,4 @@
-# Change color for close, minimize and maximize buttons in Ubuntu 22.04
+# Change color for close, minimize and maximize buttons in Ubuntu 22.04 for gtk 3 apps
 
 This repo contains customizations that can be applied to the default themes from Ubuntu 22.04 .
 
@@ -15,6 +15,16 @@ If you have Firefox installed as Snap:
 3. Logout and Login
 
 Note that this steps can be made for any Yaru theme that exists in folder `/usr/share/themes`.
+
+# Change color for close, minimize and maximize buttons in Ubuntu 22.04 for gtk 4 apps
+
+Note that the buttons will be bigger since I didn't found a way to make them the same size as the ones from gtk 3 apps
+
+1. Open file `~/.zshrc`
+2. Add this somewhere in it: `export XDG_CONFIG_HOME="$HOME/.config"`
+3. create file `~/.config/gtk-4.0/gtk.css` and file `~/.config/gtk-4.0/gtk-dark.css`
+4. Paste in those file the content from the file `custom-gtk4.css`
+
 
 # Change Gnome Terminal colors
 
